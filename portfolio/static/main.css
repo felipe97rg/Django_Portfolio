@@ -11,16 +11,17 @@ body {
     cursor: pointer;
   }
  /* Estilos base para todos los botones sociales */
-.social-button {
+ .social-button {
+  /* Asegúrate de que este estilo no afecte al botón de CV */
   display: inline-block;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #ffffff; /* Color del icono */
-  background-color: #333333; /* Fondo oscuro */
+  color: #ffffff;
+  background-color: #333333;
   text-align: center;
-  line-height: 50px; /* Centra el ícono verticalmente */
-  margin-right: 10px; /* Espacio entre botones */
+  line-height: 50px;
+  margin-right: 10px;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -37,10 +38,14 @@ body {
   background-color: #007bff; /* Un azul para el botón de descargar CV */
   color: white; /* Color del texto */
   border: none; /* Sin bordes */
-  padding: 10px 20px; /* Padding */
+  padding: 10px 20px; /* Padding ajustable */
   text-transform: uppercase; /* Texto en mayúsculas */
   font-weight: bold; /* Texto en negrita */
   border-radius: 0; /* Borde redondeado */
+  display: inline-block; /* Hacer que el botón sea un bloque en línea */
+  min-width: 150px; /* Ancho mínimo para asegurarse de que tenga buen aspecto */
+  text-align: center; /* Alinea el texto en el centro */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
 }
 
 /* Hover effects para todos los botones */
