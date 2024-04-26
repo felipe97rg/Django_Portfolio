@@ -10,3 +10,17 @@ body {
     border: 1px solid #eee;
     cursor: pointer;
   }
+  .social-button {
+    margin: 5px;
+    color: #fff; /* Color del ícono */
+    background: #333; /* Color de fondo */
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .social-button:hover {
+    background: #555; /* Color de fondo al pasar el mouse */
+  }
+  .facebook { background: #3B5998; }
+  .twitter { background: #1DA1F2; }
+  .linkedin { background: #0077B5; }
+  
