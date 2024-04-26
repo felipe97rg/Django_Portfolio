@@ -10,4 +10,53 @@ body {
     border: 1px solid #eee;
     cursor: pointer;
   }
- 
+ /* Estilos base para todos los botones sociales */
+.social-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #ffffff; /* Color del icono */
+  background-color: #333333; /* Fondo oscuro */
+  text-align: center;
+  line-height: 50px; /* Centra el ícono verticalmente */
+  margin-right: 10px; /* Espacio entre botones */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos específicos por red social */
+.fa-github {
+  background-color: #333333; /* GitHub tiende a usar negro/gris */
+}
+
+.fa-linkedin {
+  background-color: #0077b5; /* Color característico de LinkedIn */
+}
+
+.btn-g {
+  background-color: #007bff; /* Un azul para el botón de descargar CV */
+  color: white; /* Color del texto */
+  border: none; /* Sin bordes */
+  padding: 10px 20px; /* Padding */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Texto en negrita */
+  border-radius: 0; /* Borde redondeado */
+}
+
+/* Hover effects para todos los botones */
+.social-button:hover, .btn-g:hover {
+  color: #ffffff; /* Mantiene el texto blanco */
+  background-color: #666666; /* Un gris más claro para hover */
+}
+
+.fa-linkedin:hover {
+  background-color: #0056b3; /* Un azul más oscuro para LinkedIn al hacer hover */
+}
+
+.fa-github:hover {
+  background-color: #555555; /* Un gris más oscuro para GitHub al hacer hover */
+}
+
+.btn-g:hover {
+  background-color: #0056c7; /* Azul más oscuro para el botón de CV */
+}
